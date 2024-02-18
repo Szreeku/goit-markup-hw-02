@@ -6,91 +6,104 @@ body {
 ul {
   list-style-type: none;
 }
-.logo-web {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
-.navigation {
-  font-family: "Roboto", sans-serif;
+.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.link :active {
+  color: #404bbf;
+}
+.link :focus {
+  color: #404bbf;
 }
 .address {
+  font-style: normal;
+}
+.link-address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link-address :active {
+  color: #404bbf;
+}
+.link-address :focus {
+  color: #404bbf;
+}
+.section {
+  background-color: #2e2f42;
+}
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
-.button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+.button :active {
+  background-color: #404bbf;
 }
-.our-team {
-  background: #f4f4fd;
+.button :focus {
+  background-color: #404bbf;
 }
-h3 {
-  font-family: "Roboto", sans-serif;
+.title-a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.link-address {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+.paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.link :active {
+.secton-b {
+  background-color: #f4f4fd;
+}
+.title-b {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.link :focus {
-  color: #2e2f42;
+img {
+  background-color: #ffffff;
 }
-.dark-bg {
+.footer {
   background-color: #2e2f42;
 }
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
 }
