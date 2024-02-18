@@ -25,7 +25,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link :active {
+.link :hover {
   color: #404bbf;
 }
 .link :focus {
@@ -66,7 +66,7 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
-.button :active {
+.button :hover {
   background-color: #404bbf;
 }
 .button :focus {
@@ -106,4 +106,7 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.logo-studio-a {
+  color: #f4f4fd;
 }
