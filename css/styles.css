@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   color: #fff;
 }
-.body {
+body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -90,4 +90,7 @@ h3 {
 }
 .link :focus {
   color: #2e2f42;
+}
+ul {
+  list-style-type: none;
 }
