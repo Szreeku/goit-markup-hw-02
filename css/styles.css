@@ -11,7 +11,9 @@ h1 {
   color: #fff;
 }
 .body {
-  background: #fff;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 .logo-web {
   font-family: "Raleway", sans-serif;
