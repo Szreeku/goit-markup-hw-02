@@ -1,19 +1,10 @@
-.dark-bg {
-  background-color: #2e2f42;
-}
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
 body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
+}
+ul {
+  list-style-type: none;
 }
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -91,6 +82,15 @@ h3 {
 .link :focus {
   color: #2e2f42;
 }
-ul {
-  list-style-type: none;
+.dark-bg {
+  background-color: #2e2f42;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
