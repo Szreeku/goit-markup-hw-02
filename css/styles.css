@@ -66,10 +66,10 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
-.button :hover {
+.button:hover {
   background-color: #404bbf;
 }
-.button :focus {
+.button:focus {
   background-color: #404bbf;
 }
 .title-a {
